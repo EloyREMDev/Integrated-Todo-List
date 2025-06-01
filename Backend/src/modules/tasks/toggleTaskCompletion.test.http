@@ -1,0 +1,13 @@
+PATCH http://localhost:3000/tasks/1748694405514
+Content-Type: application/json
+//Marcar tarea como completada
+{
+    "completed": true
+}
+
+PATCH http://localhost:3000/tasks/1748694405514
+Content-Type: application/json
+//Desmarcar tarea
+{
+    "completed": false
+}
